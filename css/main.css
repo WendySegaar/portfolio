@@ -100,7 +100,7 @@ footer {
 	justify-self: center;
 }
 .projectBackground {
-	background-image: url("../images/background_projects_mobile.png");
+	background-image: url("../images/background_projects_mob.png");
 }
 .projectContainer {
 	display: grid;
@@ -131,6 +131,9 @@ footer {
 	border-style: solid;
 	border-color: white;
 	padding-bottom: .7vw;
+	
+	text-decoration: none;
+	color: var(--brown-color);
 
 }
 .projectContainer .project img {
@@ -203,7 +206,7 @@ footer {
 
 	/*homepage*/
 	.homeBackground {
-		background-image: url("../images/background.png");
+		background-image: url("../images/background_home.png");
 	}
 
 	#homeNav {
@@ -257,7 +260,7 @@ footer {
 	}
 	/*project pages*/
 	.projectBackground {
-		background-image: url("../images/background_dev_desktop.png");
+		background-image: url("../images/background_projects.png");
 	}
 	#projectNav {
 		display: block;
